@@ -2,6 +2,8 @@
 
 Bringing Node-RED to your Fly applications
 
+<!---- cut here --->
+
 ## Rationale
 
 If you are looking for a quick way to interconnect your various applications then Node-RED may be the low code option you've been looking for. Node-RED began its life as a way of putting together Internet Of Things applications, modeling systems as a flow of events which entered through an input node, passed through processing nodes, and eventually arrived at an output node or nodes. 
