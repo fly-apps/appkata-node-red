@@ -6,7 +6,7 @@ Bringing Node-RED to your Fly applications
 
 ## Rationale
 
-If you are looking for a quick way to interconnect your various applications then Node-RED may be the low code option you've been looking for. Node-RED began its life as a way of putting together Internet Of Things applications, modeling systems as a flow of events which entered through an input node, passed through processing nodes, and eventually arrived at an output node or nodes. 
+If you are looking for a quick way to interconnect your various applications then [Node-RED](https://nodered.org/) may be the low code option you've been looking for. Node-RED began its life as a way of putting together Internet Of Things applications, modeling systems as a flow of events which entered through an input node, passed through processing nodes, and eventually arrived at an output node or nodes. 
 
 For example, an MQTT event could arrive through an MQTT node, be passed through some processing nodes, and be output as a new record in a database or forwarded to another messaging system. If that sounds complex, Node-RED visualizes these flows as an interactive graph you can manipulate.
 
@@ -200,7 +200,7 @@ For Node-RED administration, editing the `setting.js` file locally and deploying
 ## Discuss
 
 
-* You can discuss this example on the [community.fly.io](https://community.fly.io/t/gogs-standalone-git-service-as-a-fly-example/358) topic.
+* You can discuss this example on the [community.fly.io](https://community.fly.io/t/node-red-on-fly-now-an-appkata-example/413) topic.
 
 
 
