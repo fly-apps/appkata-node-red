@@ -56,7 +56,7 @@ fly open
 
 Thanks to Fly's edge network, your connection will be upgraded automatically to HTTPS and you'll be talking to Node-RED. Or at least observing this warning:
 
-![Warning](images/nodered-data-warning.png)
+![Warning](https://raw.githubusercontent.com/fly-examples/appkata-node-red/main/images//nodered-data-warning.png)
 
 ## Volumes
 
@@ -187,7 +187,7 @@ This will create us an admin user, but now we need to generate a hashed version 
 
 Now we can `fly deploy` and `fly open` and be greeted with:
 
-![Login Screen](images/login.png)
+![Login Screen](https://raw.githubusercontent.com/fly-examples/appkata-node-red/main/images/login.png)
 
 Now we can login as admin and the password we set and we've secured access to our Node-RED.
 
