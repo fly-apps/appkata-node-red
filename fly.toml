@@ -1,13 +1,10 @@
-# fly.toml file generated for appkata-nodered on 2020-11-11T18:18:11Z
+# fly.toml file generated for appkata-node-red on 2020-11-26T10:16:48Z
 
-app = "appkata-nodered"
-
-# [build]
-#   image = "nodered/node-red"
+app = "appkata-node-red"
 
 [[mounts]]
-source="node_red_data"
-destination="/data"
+  destination = "/data"
+  source = "node_red_data"
 
 [[services]]
   internal_port = 1880
@@ -17,9 +14,9 @@ destination="/data"
     hard_limit = 25
     soft_limit = 20
 
-  # [[services.ports]]
-  #   handlers = ["http"]
-  #   port = "80"
+  [[services.ports]]
+    handlers = ["http"]
+    port = "80"
 
   [[services.ports]]
     handlers = ["tls", "http"]

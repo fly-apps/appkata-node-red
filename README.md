@@ -2,6 +2,8 @@
 
 Bringing Node-RED to your Fly applications
 
+[Read this guide on Fly.](https://beatsinternational.fly.dev/docs/app-guides/node-red/)
+
 <!---- cut here --->
 
 ## Rationale
